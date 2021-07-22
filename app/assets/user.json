@@ -5,63 +5,8 @@
   "email": "dpellant0@instagram.com",
   "gender": "Female",
   "ip_address": "255.126.147.186"
-}, {
-  "id": 2,
-  "first_name": "Damiano",
-  "last_name": "Foat",
-  "email": "dfoat1@free.fr",
-  "gender": "Polygender",
-  "ip_address": "205.111.238.35"
-}, {
-  "id": 3,
-  "first_name": "Riobard",
-  "last_name": "Welbrock",
-  "email": "rwelbrock2@miibeian.gov.cn",
-  "gender": "Female",
-  "ip_address": "221.182.64.164"
-}, {
-  "id": 4,
-  "first_name": "Xaviera",
-  "last_name": "Maynard",
-  "email": "xmaynard3@yahoo.com",
-  "gender": "Genderqueer",
-  "ip_address": "88.126.148.172"
-}, {
-  "id": 5,
-  "first_name": "Glynda",
-  "last_name": "Queree",
-  "email": "gqueree4@fda.gov",
-  "gender": "Non-binary",
-  "ip_address": "45.72.168.107"
-}, {
-  "id": 6,
-  "first_name": "Misha",
-  "last_name": "Larsen",
-  "email": "mlarsen5@wired.com",
-  "gender": "Non-binary",
-  "ip_address": "231.131.169.107"
-}, {
-  "id": 7,
-  "first_name": "Griffy",
-  "last_name": "Etridge",
-  "email": "getridge6@cargocollective.com",
-  "gender": "Genderqueer",
-  "ip_address": "170.95.172.221"
-}, {
-  "id": 8,
-  "first_name": "Daryl",
-  "last_name": "Jakubowsky",
-  "email": "djakubowsky7@columbia.edu",
-  "gender": "Polygender",
-  "ip_address": "42.242.137.53"
-}, {
-  "id": 9,
-  "first_name": "Debra",
-  "last_name": "Cutts",
-  "email": "dcutts8@wp.com",
-  "gender": "Genderqueer",
-  "ip_address": "44.19.183.128"
-}, {
+},
+  {
   "id": 10,
   "first_name": "Fergus",
   "last_name": "Perchard",
