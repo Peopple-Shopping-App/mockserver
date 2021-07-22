@@ -1,1 +1,1 @@
-web: uvicorn server.py --port 80
+web: uvicorn app.main:app --port 80
