@@ -1,2 +1,2 @@
-chmod -R 777 app
+chmod -R 777 *
 web: python server.py
