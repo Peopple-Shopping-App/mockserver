@@ -1,1 +1,1 @@
-worker: uvicorn server.py --port 80
+web: uvicorn server.py --port 80
