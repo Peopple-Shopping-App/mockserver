@@ -1,0 +1,103 @@
+{
+    "Household": [
+        {
+            "label": "Mop",
+            "price": "150.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        },
+        {
+            "label": "Soap",
+            "price": "30.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        },
+        {
+            "label": "Shampoo",
+            "price": "50.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        }
+    ],
+    "Fruits": [
+        {
+            "label": "Mango",
+            "price": "60.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        },
+        {
+            "label": "Apple",
+            "price": "50.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        },
+        {
+            "label": "Orange",
+            "price": "40.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        }
+    ],
+    "Vegetables": [
+        {
+            "label": "Carrot",
+            "price": "30.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        },
+        {
+            "label": "Onion",
+            "price": "30.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        },
+        {
+            "label": "Tomato",
+            "price": "30.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        }
+    ],
+    "Hardwares": [
+        {
+            "label": "Screwdriver",
+            "price": "30.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        },
+        {
+            "label": "Wrench",
+            "price": "15.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        },
+        {
+            "label": "Crowbar",
+            "price": "60.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        }
+    ],
+    "Toys": [
+        {
+            "label": "Football",
+            "price": "260.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        },
+        {
+            "label": "Badminton Racket",
+            "price": "100.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        },
+        {
+            "label": "Lego",
+            "price": "610.0",
+            "image_url": "",
+            "decrp": "kffjrkft"
+        }
+
+    ]
+}
