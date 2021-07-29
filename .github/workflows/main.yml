@@ -33,7 +33,7 @@ jobs:
       - name: Run a one-line script
         run: |
           curl https://cli-assets.heroku.com/install.sh | sh
-          horoku login -i | irfanudeen08@gmail.com | echo $HEROKU_API_KEY
+          heroku login -i | irfanudeen08@gmail.com | echo $HEROKU_API_KEY
           heroku git:remote --app peopplemockerserver
           git push heroku
 
