@@ -27,7 +27,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Git deploy to Heroku
-        uses: behe/heroku-build@v1
+        uses: onekiloparsec/heroku-node-deploy-subfolder@v1.1.0
         with:
             app_name: peopplemockerserver
             api_key: ${{secrets.HEROKU_API_KEY}}
