@@ -24,11 +24,13 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - uses: behe/heroku-build@v1       
+      - uses: CDNievas/heroku-action@v1.0
+       
         with:
-            app-name: "peopplemockerserver"
+            heroku_email: irfanudeen08@gmail.com
+            heroku_app_name: peopplemockerserver
             # API key with the deploy role
-            api-key: ${{secrets.HEROKU_API_KEY}}              
+            heroku_api_key: ${{secrets.HEROKU_API_KEY}}              
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
