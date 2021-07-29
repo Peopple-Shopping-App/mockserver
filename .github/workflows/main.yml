@@ -34,7 +34,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: git push heroku
+        run: |
+          curl https://cli-assets.heroku.com/install.sh | sh
+          heroku git:remote --app my-app
+          git push heroku
 
 
       # Runs a set of commands using the runners shell
