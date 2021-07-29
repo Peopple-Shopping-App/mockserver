@@ -29,7 +29,7 @@ jobs:
             heroku_email: irfanudeen08@gmail.com
             heroku_app_name: peopplemockerserver
             # API key with the deploy role
-            heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+            heroku_api_key: 3ac49ef4-fc79-42c3-bf7e-5122c8ea7098
 
 
       # Runs a single command using the runners shell
