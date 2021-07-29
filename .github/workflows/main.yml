@@ -26,7 +26,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - uses: behe/heroku-build@v1
+      - name: Git deploy to Heroku
+        uses: behe/heroku-build@v1
         with:
-            app-name: peopplemockerserver
-            api-key: ${{secrets.HEROKU_API_KEY}}
+            app_name: peopplemockerserver
+            api_key: ${{secrets.HEROKU_API_KEY}}
+            email: irfanudeen08@gmail.com
