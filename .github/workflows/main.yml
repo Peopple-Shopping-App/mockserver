@@ -26,18 +26,14 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-       
-        with:
-            heroku_email: irfanudeen08@gmail.com
-            heroku_app_name: peopplemockerserver
-            # API key with the deploy role
-            HEROKU_API_KEY: ${{secrets.HEROKU_API_KEY}}
+
 
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          git remote add heroku https://git.heroku.com/peopplemockerserver.git
+          curl https://cli-assets.heroku.com/install.sh | sh
+          heroku git:remote --app peopplemockerserver
           git push heroku
 
 
