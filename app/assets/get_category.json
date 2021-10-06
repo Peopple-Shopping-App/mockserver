@@ -1,14 +1,18 @@
 [
   {
-      "label": "Groceries",
+      "label": "Shop",
       "value": "cat_123"
   },
   {
-      "label": "Hardwares",
+      "label": "Appointment",
       "value": "cat_123"
   },
   {
-      "label": "Utensils",
+      "label": "Consultation",
+      "value": "cat_123"
+  },
+  {
+      "label": "Labour",
       "value": "cat_123"
   }
 ]
